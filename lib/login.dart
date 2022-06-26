@@ -105,14 +105,18 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   TextButton.icon(onPressed: (() {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => HomeScreen(
-                         '99581XXXXX',
+                    var status = _formKey.currentState?.validate();
+                    if (status != null && status) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => HomeScreen(
+                            mobileController.text,
+                          ),
                         ),
-                      ),
-                    );
+                      );
+                    }
+                    
                   }),
                       icon: Icon(Icons.arrow_forward),
                       label: Text("Continue without OTP")),  
