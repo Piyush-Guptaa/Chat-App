@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text('Home'),
       ),
       body: Center(
-        child: Text('Home'),
+        child: Text('+91 ${widget.phoneNumber}'),
       ),
     );
   }
