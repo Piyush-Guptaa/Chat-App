@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "582746108508",
+    "project_id": "chatapp-2ca07",
+    "storage_bucket": "chatapp-2ca07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582746108508:android:7cfb64ec22d76d74ebec99",
+        "android_client_info": {
+          "package_name": "com.example.video_call"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582746108508-hnjmeab4i3vu60994mh0quv4ao5vdlsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5dN-rO8Pw6KCQRmSWny8dyeb9o9XswYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582746108508-hnjmeab4i3vu60994mh0quv4ao5vdlsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
