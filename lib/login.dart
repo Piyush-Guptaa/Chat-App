@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:video_call/home_screen.dart';
+// import 'package:video_call/home_screen.dart';
 
-import 'otp.dart';
+// import 'otp.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -91,14 +91,14 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () {
                         var status = _formKey.currentState?.validate();
                         if (status != null && status) {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => OtpScreen(
-                                mobileController.text,
-                              ),
-                            ),
-                          );
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(
+                          //     builder: (context) => OtpScreen(
+                          //       mobileController.text,
+                          //     ),
+                          //   ),
+                          // );
                         }
                         
                       },
@@ -108,14 +108,14 @@ class _LoginPageState extends State<LoginPage> {
                   TextButton.icon(onPressed: (() {
                     var status = _formKey.currentState?.validate();
                     if (status != null && status) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => HomeScreen(
-                            mobileController.text,
-                          ),
-                        ),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(
+                      //     builder: (context) => HomeScreen(
+                      //       mobileController.text,
+                      //     ),
+                      //   ),
+                      // );
                     }
                     
                   }),
